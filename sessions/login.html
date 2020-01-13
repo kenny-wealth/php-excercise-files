@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Login</title>
+    <style>
+        .box {
+            width: 40%;
+            margin: 40px auto;
+            border: 1px solid #efefef;
+            text-align: center;
+        }
+
+        .my-button {
+            background: green;
+            color: white;
+            border: 0;
+            width: 100%;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <h6 style="text-align: center">Please login with your email</h6>
+        <form method="POST" action="login.php" name="signUp">
+
+            <label for="email">Email:</label>
+            <br>
+            <input type="email" name="email" id="email">
+            <br>
+            <input class="my-button" type="submit" name="submit" value="Submit" >
+        </form>
+    </div>
+
+</body>
+</html>
